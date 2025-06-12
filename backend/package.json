@@ -1,0 +1,33 @@
+{
+  "name": "gym-tracker-backend",
+  "version": "1.0.0",
+  "description": "Backend API for gym tracker application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "api",
+    "sqlite",
+    "clerk",
+    "gym-tracker"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@clerk/clerk-sdk-node": "^4.10.15",
+    "sqlite3": "^5.1.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
