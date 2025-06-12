@@ -23,7 +23,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Configure CORS to allow requests from the frontend
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:3000', 'https://progress-tracker-alpha-six.vercel.app'],
+  origin: ['http://localhost:5173', 'http://localhost:3000', 'https://progress-tracker-sage-one.vercel.app'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
