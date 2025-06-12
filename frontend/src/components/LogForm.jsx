@@ -121,7 +121,7 @@ const LogForm = ({ onAddLog }) => {
         
         <motion.button
           type="submit"
-          className="mt-6 w-full bg-indigo-700 hover:bg-indigo-800 text-black font-bold py-3 px-4 rounded-lg transition-colors duration-300 shadow-md"
+          className="mt-6 w-full bg-indigo-700 hover:bg-indigo-800 text-black dark:text-white font-bold py-3 px-4 rounded-lg transition-colors duration-300 shadow-md"
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
         >

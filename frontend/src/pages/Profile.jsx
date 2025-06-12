@@ -100,7 +100,7 @@ const Profile = () => {
               {!isEditing && (
                 <button
                   onClick={() => setIsEditing(true)}
-                  className="bg-indigo-700 hover:bg-indigo-800 text-black font-medium px-4 py-2 rounded-md transition-colors shadow-md"
+                  className="bg-indigo-700 hover:bg-indigo-800 text-black dark:text-white font-medium px-4 py-2 rounded-md transition-colors shadow-md"
                 >
                   Edit Profile
                 </button>
@@ -216,7 +216,7 @@ const Profile = () => {
                 <div className="flex space-x-4">
                   <motion.button
                     type="submit"
-                    className="bg-indigo-700 hover:bg-indigo-800 text-black font-medium px-4 py-2 rounded-md transition-colors shadow-md"
+                    className="bg-indigo-700 hover:bg-indigo-800 text-black dark:text-white font-medium px-4 py-2 rounded-md transition-colors shadow-md"
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                   >

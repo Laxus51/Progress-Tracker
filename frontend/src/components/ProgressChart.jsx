@@ -40,7 +40,7 @@ const ProgressChart = ({ logs }) => {
             onClick={() => setChartType('weight')}
             className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200 shadow-sm ${
               chartType === 'weight'
-                ? 'bg-indigo-700 text-black shadow-md'
+                ? 'bg-indigo-700 text-black dark:text-white shadow-md'
                 : 'bg-gray-200 dark:bg-gray-600 text-gray-900 dark:text-white hover:bg-gray-300 dark:hover:bg-gray-500'
             }`}
           >
@@ -50,7 +50,7 @@ const ProgressChart = ({ logs }) => {
             onClick={() => setChartType('nutrition')}
             className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200 shadow-sm ${
               chartType === 'nutrition'
-                ? 'bg-indigo-700 text-black shadow-md'
+                ? 'bg-indigo-700 text-black dark:text-white shadow-md'
                 : 'bg-gray-200 dark:bg-gray-600 text-gray-900 dark:text-white hover:bg-gray-300 dark:hover:bg-gray-500'
             }`}
           >
